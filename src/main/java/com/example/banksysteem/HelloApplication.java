@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
         TextField txtRekeningnr = new TextField();
         TextField txtSaldo = new TextField();
 
-        Button btnOpen = new Button("Open");
+        Button btnOpen = new Button("Open1");
         btnOpen.setOnAction(e->{
 
             switch(cmbRekening.getValue().toString())
